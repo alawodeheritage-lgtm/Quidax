@@ -1,0 +1,86 @@
+body {
+  margin: 20px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  
+}
+.quidax-header {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 40px;
+}
+.get-button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.get-button:hover {
+  background-color: rgb(114, 233, 114);
+  transition: 0.5s;
+}
+.menu-icon {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  cursor: pointer;
+}
+.menu-icon span {
+  height: 5px;
+  background-color: blueviolet;
+  border-radius: 5px;;
+}
+.buy-header {
+  font-size: 50px;
+  font-family: Arial;
+  font-weight: bolder;
+}
+.quidax-p {
+  font-weight: lighter;
+  font-family: Arial;
+  font-size: 15px;
+}
+.input-mail {
+  background-color: rgb(207, 199, 199);
+  width: 430px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 0px;
+  border-width:1px;
+  border: lighter;
+  border-color: whitesmoke;
+}
+.input-mail:focus {
+  border-color: blueviolet;
+  outline: none;
+}
+.started-button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 435px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.started-button:hover {
+  background-color: rgb(114, 233, 114);
+  transition: 0.5s;
+}
+@media  (min-width:100px) and (max-width:200px) {
+ body {
+  background-color: white;
+ }
